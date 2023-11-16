@@ -48,14 +48,97 @@
 .estimate-header {
   height: 100px;
   padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-title {
+  color: white;
+  font-size: 24px;
+  margin-top: 36px;
+}
+.header-button {
+  margin-top: 40px;
+}
+.header-button a {
+  text-decoration: none;
+  border: 1px solid #FAFAFA;
+  color: #FAFAFA;
+  padding: 20px;
 }
 .titles {
   background-color: #FAFAFA;
-  height: calc(100vh - 100px - 90px);
+  height: calc(100vh - 100px - 150px);
   padding: 46px 40px 0;
+  overflow: scroll;
+}
+.title {
+  margin: 10px 0 0 0;
+}
+.upper-title {
+  display: flex;
+}
+.title-user {
+  color: #999;
+  font-size: 16px;
+}
+.title-date {
+  color: #999;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.lower-title {
+  margin-top: 10px;
+}
+.title-content {
+  color: #8fbc8f;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.title-amount {
+  color: #8fbc8f;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.title-memo {
+  color: #8fbc8f;
+  font-size: 14px;
+  margin-bottom: 40px;
 }
 .form {
   background-color: #DDDDDD;
-  height: 90px;
+  height: 150px;
   padding: 20px 40px;
+  display: flex;
+}
+.form-input {
+  background-color: white;
+  width: 100%;
+}
+.form-title-content {
+  border: none;
+  height: 20%;
+  width: 100%;
+  padding-left: 10px;
+}
+.form-title-amount {
+  border: none;
+  height: 20%;
+  width: 100%;
+  padding-left: 10px;
+}
+.form-title-memo {
+  border: none;
+  height: 60%;
+  width: 100%;
+  padding-left: 10px;
+}
+.form-submit {
+  background-color: #4682b4;
+  border: none;
+  color: white;
+  width: 73px;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
 }
