@@ -2,6 +2,7 @@ class TitlesController < ApplicationController
   def index
     @title = Title.new
     @room = Room.find(params[:room_id])
+    @titles = @room.titles.includes(:user)
   end
 
   def create
@@ -10,6 +11,7 @@ class TitlesController < ApplicationController
     if @title.save
       redirect_to room_titles_path(@room)
     else
+      @titles = @room.titles.includes(:user)
       render :index, status: :unprocessable_entity
     end
   end

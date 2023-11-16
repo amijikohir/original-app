@@ -12,27 +12,7 @@
 </div>
 
 <div class="titles">
-  <div class="title">
-    <div class="upper-title">
-      <div class="title-user">
-        Riho
-      </div>
-      <div class="title-date">
-        2020/3/31(Wed) 12:43:30
-      </div>
-    </div>
-    <div class="lower-title">
-     <div class="title-content">
-       親族の交通費
-     </div>
-     <div class="title-amount">
-       150,000円
-     </div>
-     <div class="title-memo">
-       30,000円 x 5人
-      </div>
-    </div>
-  </div>
+  <%= render partial: 'title', collection: @titles %>
 </div>
 
 <%= form_with model: [@room, @title], class: 'form', local: true do |f| %>
