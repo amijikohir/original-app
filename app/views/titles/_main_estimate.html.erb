@@ -35,11 +35,11 @@
   </div>
 </div>
 
-<div class="form">
+<%= form_with model: [@room, @title], class: 'form', local: true do |f| %>
   <div class="form-input">
-    <input class="form-title-content" placeholder="内容">
-    <input class="form-title-amount" placeholder="金額">
-    <input class="form-title-memo" placeholder="詳細">
+    <%= f.text_field :content, class: 'form-title-content', placeholder: '内容' %>
+    <%= f.number_field :amount, class: 'form-title-amount', placeholder: '金額' %>
+    <%= f.text_field :memo, class: 'form-title-memo', placeholder: '詳細' %>
   </div>
-  <input class="form-submit" type="sumbit" value="送信">
-</div>
+  <%= f.submit '送信', class: 'form-submit' %>
+<% end %>
