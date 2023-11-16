@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get 'titles/index'
   root to: "titles#index"
   resources :users, only: [:edit, :update]
+  resources :rooms, only: [:new, :create]
 end
