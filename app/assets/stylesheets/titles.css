@@ -41,6 +41,11 @@
   text-decoration: none;
   color: white;
 }
+.delete {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
 .estimate {
   background-color: #4682b4;
   width: calc(100vw - 300px);
