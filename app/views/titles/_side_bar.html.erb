@@ -13,6 +13,9 @@
       <div class="room-name">
         <%= link_to room.name, room_titles_path(room) %>
       </div>
+      <div class="delete">
+        <%= link_to "削除", room_path(room), data: { turbo_method: :delete } %>
+      </div>
     </div>
   <% end %>
 </div>
