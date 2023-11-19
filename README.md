@@ -43,10 +43,10 @@ https://docs.google.com/spreadsheets/d/1_WTq_n-lMSVsXvIJ4rmmymaHqXXjOLVmBvkdhFrB
 ・タスク管理
 
 ## ローカルでの動作方法
-以下のコマンドを順に実行。
-% git clone https://github.com/amijikohir/original-app
-% cd original-app
-% bundle install
+以下のコマンドを順に実行。  
+% git clone https://github.com/amijikohir/original-app  
+% cd original-app  
+% bundle install  
 % yarn install
 
 ## 工夫したポイント
