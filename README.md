@@ -9,7 +9,7 @@ https://original-app-4ask.onrender.com
 
 ## テスト用アカウント
 ・メールアドレス：kijima@gmail.com  
-・パスワード：Kijima
+・パスワード：RIHOrira0625
 
 ## 利用方法
 1.トップページよりユーザー新規登録を行う  
